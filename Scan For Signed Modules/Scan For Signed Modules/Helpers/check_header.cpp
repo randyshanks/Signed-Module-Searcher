@@ -98,7 +98,7 @@ namespace Check
 
 						}
 
-						// Check whether it is x86 or x64 because file logging is shit
+						// Check whether it is x86 or x64
 						std::string architecture = optional_header.Magic == 0x20b ? "64-bit" : "32-bit";
 
 						// Log to the file
